@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2463c357-53ad-4d62-a08f-e7411e37074b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1bw4VpFdu5OyHgXfJQCsaFoHzTY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-config-server/2.2.1.RELEASE/spring-cloud-config-server-2.2.1.RELEASE.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.splitter.proportion" value="0.23641619" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jinan.springcloud.controller" />
+      <recent name="com.jinan.springcloud.Iservice.serviceImpl" />
+      <recent name="com.jinan.springcloud.Iservice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\qq\IdeaProjects\cloud2020\cloud-provider-payment8002\src\main\java\com\jinan\springcloud\Iservice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PaymentMain8001">
+    <configuration name="EurekaMain7001" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jinan.springcloud.EurekaMain7001" />
+      <module name="cloud-eureka-server7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7002" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jinan.springcloud.EurekaMain7002" />
+      <module name="cloud-eureka-server7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jinan.springcloud.OrderMain80" />
+      <module name="cloud-conumer-order80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8001" type="Application" factoryName="Application" singleton="false">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.jinan.springcloud.PaymentMain8001" />
+      <module name="cloud-provider-payment8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8002" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.jinan.springcloud.OrderMain80" />
+      <module name="cloud-conumer-order80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="com.jinan.springcloud.OrderMain80" />
+      <module name="cloud-conumer-order80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PaymentMain8002" />
+      <item itemvalue="Application.EurekaMain7002" />
+      <item itemvalue="Application.EurekaMain7001" />
+      <item itemvalue="Application.PaymentMain8001" />
+      <item itemvalue="Application.OrderMain80" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2463c357-53ad-4d62-a08f-e7411e37074b" name="Default Changelist" comment="" />
+      <created>1589529848371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589529848371</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="457" y="0" width="1022" height="1050" key="#PaymentMain" timestamp="1589609372625">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="457" y="0" width="1022" height="1050" key="#PaymentMain/0.0.1920.1050@0.0.1920.1050" timestamp="1589609372625" />
+    <state x="457" y="0" width="1020" height="1050" key="#PaymentMain8001" timestamp="1589609299110">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="457" y="0" width="1020" height="1050" key="#PaymentMain8001/0.0.1920.1050@0.0.1920.1050" timestamp="1589609299110" />
+    <state x="246" y="0" width="1585" height="1050" key="#Project_Structure" timestamp="1593938802490">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="197" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1592327379455" />
+    <state x="246" y="0" width="1585" height="1050" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1593938802490" />
+    <state x="217" y="74" width="1562" height="976" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589639353325">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="217" y="74" width="1562" height="976" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589639353325" />
+    <state x="482" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1592322706716">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="482" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1592322706716" />
+    <state x="602" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1592062829121" />
+    <state x="681" y="208" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589639316194">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="681" y="208" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589639316194" />
+    <state x="220" y="211" width="1480" height="622" maximized="true" key="DiffContextDialog" timestamp="1593016427390">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="220" y="211" width="1480" height="622" maximized="true" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1593016427390" />
+    <state x="666" y="62" width="840" height="839" key="FileChooserDialogImpl" timestamp="1593679272103">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="666" y="62" width="840" height="839" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1593679272103" />
+    <state width="1845" height="329" key="GridCell.Tab.0.bottom" timestamp="1589652131445">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1845" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589652131445" />
+    <state width="1845" height="329" key="GridCell.Tab.0.center" timestamp="1589652131445">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1845" height="329" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589652131445" />
+    <state width="1845" height="329" key="GridCell.Tab.0.left" timestamp="1589652131445">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1845" height="329" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589652131445" />
+    <state width="1845" height="329" key="GridCell.Tab.0.right" timestamp="1589652131445">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1845" height="329" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589652131445" />
+    <state width="1699" height="248" key="GridCell.Tab.1.bottom" timestamp="1589652131419">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1699" height="248" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589652131419" />
+    <state width="1699" height="248" key="GridCell.Tab.1.center" timestamp="1589652131419">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1699" height="248" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589652131419" />
+    <state width="1699" height="248" key="GridCell.Tab.1.left" timestamp="1589652131419">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1699" height="248" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589652131419" />
+    <state width="1699" height="248" key="GridCell.Tab.1.right" timestamp="1589652131419">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1699" height="248" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589652131419" />
+    <state x="281" y="0" key="NewModule_or_Project.wizard" timestamp="1592273405342">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="281" y="0" key="NewModule_or_Project.wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1592273405342" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1592209767379">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1592209767379" />
+    <state x="403" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1593268980802">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="403" y="223" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1593268980802" />
+    <state x="581" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593016308788">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="581" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1593016308788" />
+    <state x="562" y="44" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589553025886">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="562" y="44" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589553025886" />
+    <state x="452" y="150" width="960" height="754" key="find.popup" timestamp="1593397877142">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="452" y="150" width="960" height="754" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1593397877142" />
+    <state x="220" y="79" key="new project wizard" timestamp="1593938458346">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1592325876349" />
+    <state x="220" y="79" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1593938458346" />
+    <state x="286" y="185" key="run.anything.popup" timestamp="1594768720774">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="286" y="185" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1594768720774" />
+    <state x="358" y="233" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1593960617077" />
+    <state x="364" y="0" width="1344" height="1046" key="search.everywhere.popup" timestamp="1593959884237">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="291" y="0" width="1076" height="831" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1592326840988" />
+    <state x="364" y="0" width="1344" height="1046" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1593959884237" />
+  </component>
+</project>

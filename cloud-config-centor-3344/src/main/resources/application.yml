@@ -1,0 +1,40 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:gzgzya/springcloud-config.git         #git仓库地址
+          search-paths:                                             #搜索目录
+            -springcloud-config
+      label: master                                                 #读取分支
+
+#访问"uri: git@github.com:gzgzya/springcloud-config.git"下的config-dev.yml。
+#git仓库地址 http://localhost:3344/master/config-dev.yml配置文件。
+
+#若要访问spring-cloud目录下master下的dev,release,pro环境则访问路径分别为：
+#    http://localhost:3344/master/config-dev.yml
+#    http://localhost:3344/master/config-release.yml
+#    http://localhost:3344/master/config-pro.yml
+#/{label}/{application}-{profile}.yml
+
+
+#若访问不带/label，则默认访问配置文件下的label文件
+#当访问不带/label时，github不存在的路径时，显示{}
+
+#{application}/{profile}/{label}  ==  {label}/{application}-{profile}
+#http://localhost:3344/config/dev/master
+
+
+
+
+erueka:
+  client:
+    register-with-eureka: true
+    fetch-register: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka

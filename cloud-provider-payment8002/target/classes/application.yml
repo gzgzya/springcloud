@@ -1,0 +1,18 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: cloud-payment-service
+  datasource:
+    url: jdbc:mysql://ali.renqzh.com:3306/takeout?&serverTimezone=Asia/Shanghai&characterEncoding=utf-8
+    username: root
+    password: 957809494
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+
+eureka:
+  client:
+    register-with-eurake: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7001.com:7001/eureka/

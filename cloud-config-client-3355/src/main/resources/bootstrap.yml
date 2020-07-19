@@ -1,0 +1,51 @@
+#application.yml  用户级的资源配置项
+#bootstrap.yml    系统级别的资源配置项，优先级更加高
+#springcloud会创建一个“bootstrap Context”,作为Spring应用的'Application Context'的父上下文。
+#初始化的时候，'Bootstrap Context'负责从外部资源加载属性并解析配置。这两个上下文共享一个外部获取的'Environment';
+#理解为 'Bootstrap.yml' 配置文件对外部资源加载并解析配置，'Application.yml' 配置文件对内部资源加载并解析配置。
+
+
+server:
+  port: 3355
+
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      name: config  #配置文件名称
+      profile: dev  #读取后缀名称
+      uri: http://localhost:3344  #配置中心服务端地址
+
+#3355服务会从 3344服务上 http://localhost:3344/master/config-dev.yml 加载配置资源并解析
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
+
+#暴露服务的端口
+#添加暴漏端口任无法刷新github的更新属性，需在github所在的服务器上对服务配置客户端发起Post请求：
+#curl -X POST "http://localhost:3355/actuator/refresh"     bus
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
